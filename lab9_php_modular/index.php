@@ -15,6 +15,11 @@ $result = mysqli_query($conn, $sql);
 </head>
 
 <body>
+
+    <?php require('header.php');?>
+
+    <?php require('home.php');?>
+
     <div class="container">
         <h1>Data Barang</h1>
         <a href="tambah.php">Tambah Barang</a>
@@ -50,6 +55,8 @@ $result = mysqli_query($conn, $sql);
             </table>
         </div>
     </div>
+
+    <?php require('footer.php');?>
 </body>
 
 </html>

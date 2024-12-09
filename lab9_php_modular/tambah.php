@@ -37,6 +37,10 @@ if (isset($_POST['submit'])) {
 </head>
 
 <body>
+
+    <?php require('header.php'); ?>
+
+    <?php require('home.php'); ?>
     <div class="container">
         <h1>Tambah Barang</h1>
         <div class="main">
@@ -67,7 +71,7 @@ if (isset($_POST['submit'])) {
                 </div>
                 <div class="input">
                     <label>File Gambar</label>
-                    <input type="file" name="file_gambar" required/>
+                    <input type="file" name="file_gambar" required />
                 </div>
                 <div class="submit">
                     <input type="submit" name="submit" value="Simpan" />
@@ -75,6 +79,8 @@ if (isset($_POST['submit'])) {
             </form>
         </div>
     </div>
+
+    <?php require('footer.php');?>
 </body>
 
 </html>

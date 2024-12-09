@@ -58,12 +58,18 @@ function is_select($var, $val)
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style/app.css">
     <title>Ubah Barang</title>
 </head>
+
 <body>
+
+    <?php require('header.php'); ?>
+
+    <?php require('home.php'); ?>
     <div class="container">
         <h1>Ubah Barang</h1>
         <div class="main">
@@ -75,9 +81,12 @@ function is_select($var, $val)
                 <div class="input">
                     <label>Kategori</label>
                     <select name="kategori">
-                        <option <?php echo is_select('Komputer', $data['kategori']); ?> value="Komputer">Komputer</option>
-                        <option <?php echo is_select('Elektronik', $data['kategori']); ?> value="Elektronik">Elektronik</option>
-                        <option <?php echo is_select('Hand Phone', $data['kategori']); ?> value="Hand Phone">Hand Phone</option>
+                        <option <?php echo is_select('Komputer', $data['kategori']); ?> value="Komputer">Komputer
+                        </option>
+                        <option <?php echo is_select('Elektronik', $data['kategori']); ?> value="Elektronik">Elektronik
+                        </option>
+                        <option <?php echo is_select('Hand Phone', $data['kategori']); ?> value="Hand Phone">Hand Phone
+                        </option>
                     </select>
                 </div>
                 <div class="input">
@@ -103,5 +112,8 @@ function is_select($var, $val)
             </form>
         </div>
     </div>
+
+    <?php require('footer.php');?>
 </body>
+
 </html>
