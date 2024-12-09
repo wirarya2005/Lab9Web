@@ -19,6 +19,14 @@
 ## Tampilan Akhir
 ![tamAkhir](/screenshoot/modularfirst.png)
 
+## Implementasi pada `Praktikum Delapan`
+### Pada Read Data `index.php`
+![tampilanIndex](/screenshoot/tampilanIndexFix.png)
+## Pada Create Data `tambah.php`
+![tampilanTambah](/screenshoot/tampilanTambahFix.png)
+## Pada Update Data `ubah.php`
+![tampilanUpdate](/screenshoot/tampilanUbahFix.png)
+
 ## `Membuat Database dan Tabel (latihan1)`
 ![buat-database](/screenshoot/make-table.png)
 ![isi-tabel](/screenshoot/tambah-value.png)
